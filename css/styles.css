@@ -194,6 +194,10 @@ img {
   overflow: hidden;
 }
 
+.features-list-item {
+  width: calc((100%-72px) / 4);
+}
+
 .list-title {
   font-weight: 500;
   font-size: 20px;
@@ -207,7 +211,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  width: calc((100%-72px) / 4);
 }
 
 /*--------------------------------------Our Team---------------------------- */
