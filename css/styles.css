@@ -27,17 +27,26 @@ a {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
+img {
+  display: block;
+}
+
 /*----------------------HEADER-------------------- */
+
+.header-container {
+  display: flex;
+}
 
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -48,6 +57,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -60,20 +70,13 @@ a {
   color: #2e2f42;
 }
 
-.header-container {
-  display: flex;
-  gap: 332px;
-}
-
 .header-nav {
   display: flex;
-  justify-content: flex-start;
-  gap: 76px;
+  align-items: center;
 }
 
 .header-menu {
   display: flex;
-  justify-content: center;
   gap: 40px;
 }
 
@@ -83,6 +86,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-menu-item:hover {
@@ -99,10 +103,8 @@ a {
 
 .adress-list {
   display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  align-items: flex-start;
   gap: 40px;
+  margin-left: 332px;
 }
 
 .data {
@@ -150,7 +152,7 @@ a {
   width: 169px;
   height: 56px;
   display: block;
-  margin: 0 auto;`
+  margin: 0 auto;
 }
 
 .title-button:hover {
