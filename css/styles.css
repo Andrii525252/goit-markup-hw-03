@@ -267,7 +267,7 @@ img {
 
 /* --------------------------------------Portfolio -------------------------*/
 
-.portfolio-container {
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -318,9 +318,6 @@ img {
 
 .footer {
   background-color: #2e2f42;
-}
-
-.footer-container {
   padding: 100px 0;
 }
 
