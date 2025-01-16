@@ -217,6 +217,7 @@ img {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -227,10 +228,24 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  flex-direction: row;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item-text {
+  padding: 32px 0;
 }
 
 .team-list-title {
@@ -240,12 +255,14 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-list-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 /* --------------------------------------Portfolio -------------------------*/
