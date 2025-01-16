@@ -135,7 +135,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
 }
 
@@ -171,6 +171,11 @@ img {
 
 /*----------------------------------Features------------------------------- */
 
+.features-title-list {
+  display: flex;
+  gap: 24px;
+}
+
 .features {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -202,7 +207,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  max-width: 264px;
+  width: calc((100%-72px) / 4);
 }
 
 /*--------------------------------------Our Team---------------------------- */
